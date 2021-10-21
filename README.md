@@ -6,8 +6,8 @@
 
 ### Task 1 for Lecture #2
 
-- To run the bash script, use in Terminal:
-  `/script`
+- To run the bash script, type in Terminal:
+  `./script` and enter any word and press Enter.
 
-- To run the ruby file, use in Terminal:
+- To run the ruby file, type in Terminal:
   `ruby script.rb`

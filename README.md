@@ -6,11 +6,15 @@
 
 ### Task 1 for Lecture #2
 
-- To run the bash script, type in Terminal:
+- To run the bash script, enter in Task 1 folder type in Terminal:
   `./script` and enter any word and press Enter.
 
-- To run the ruby file, type in Terminal:
+Console output should be the word that you typed.
+
+- To run the ruby file, enter in Task 1 folder and type in Terminal:
   `ruby script.rb`
+
+Console output should be number 6.
 
 ### Task 2 for Lecture #3
 
@@ -19,7 +23,8 @@
 
 Console output should be following:
 
-```Drinks in stock:
+```
+Drinks in stock:
 ["Cola", "Water", "Juice"]
 
 Affordable drinks:

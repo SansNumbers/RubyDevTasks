@@ -18,7 +18,8 @@
   `ruby script.rb`
 
 Console output should be following:
-`Drinks in stock:
+
+```Drinks in stock:
 ["Cola", "Water", "Juice"]
 
 Affordable drinks:
@@ -32,4 +33,5 @@ How much Cola drinks left in stock:
 {:l033=>3, :l05=>7, :l1=>8, :l2=>4}
 
 Total amount of drinks:
-36`
+36
+```

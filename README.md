@@ -40,3 +40,31 @@ How much Cola drinks left in stock:
 Total amount of drinks:
 36
 ```
+
+### Task 3 for Lecture #4
+
+- To run the ruby file, enter in Task 3 folder and type in Terminal:
+  `ruby script.rb`
+
+Console output should be following:
+
+```
+<!doctype html>
+
+<html>
+<head>
+	<meta name="charset" content="utf-8">
+	<title>The HTML5 Template</title>
+	<meta name="description" content="The HTML5 Template">
+	<meta name="author" content="MobiDev">
+
+	<link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+
+<body>
+	<div>Hello World</div>
+	<script src="js/scripts.js"> </ script>
+</body>
+</html>
+
+```

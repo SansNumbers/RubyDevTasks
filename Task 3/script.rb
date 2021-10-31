@@ -5,14 +5,10 @@ class MDHtml
         instance_eval &block
     end
     
-    def div(*args, &block)
+    def div(&block)
         @html << "\n\t<div>"
-        instance_eval &block
+        @html << block.call()
         @html << "</div>"
-    end
-
-    def text str
-        @html << str
     end
 
     def html(&block)
@@ -51,7 +47,7 @@ class MDHtml
     end
 
     def to_s
-        puts @html
+        print @html
     end
 end
 
@@ -68,7 +64,7 @@ MDHtml.new do
     
         body do
             div do
-            text "Hello World"
+            "Hello World"
             end
         script src:"js/scripts.js"
         end

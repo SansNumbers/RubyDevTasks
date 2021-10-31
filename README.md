@@ -66,5 +66,4 @@ Console output should be following:
 	<script src="js/scripts.js"> </ script>
 </body>
 </html>
-
 ```

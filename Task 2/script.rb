@@ -7,7 +7,7 @@ class Inventory
     def item_in_stock
         array = []
         @arr.each { |drink| array << drink[:name] if drink[:quantity_by_size].length > 0}
-        print array
+        print array.sort
     end
 
     def affordable

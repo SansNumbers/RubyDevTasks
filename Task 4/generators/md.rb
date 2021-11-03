@@ -5,8 +5,7 @@ class GeneratorMd < GeneratorBase
     if line.is_a? Header
       "# #{line.text}"
     elsif line.is_a? Section
-      "# #{line.title}
-      #{line.text}"
+      "# #{line.title}\n#{line.text}"
     elsif line.is_a? Text
       "#{line.text}"
     elsif line.is_a? Link

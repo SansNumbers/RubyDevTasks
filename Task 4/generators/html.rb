@@ -5,8 +5,7 @@ class GeneratorHtml < GeneratorBase
     if line.is_a? Header
       "<h1>#{line.text}</h1>"
     elsif line.is_a? Section
-      "<h1>#{line.title}<h1>
-      <p>#{line.text}</p>"
+      "<h1>#{line.title}<h1>\n<p>#{line.text}</p>"
     elsif line.is_a? Text
       "<p>#{line.text}</p>"
     elsif line.is_a? Link

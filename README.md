@@ -67,3 +67,21 @@ Console output should be following:
 </body>
 </html>
 ```
+
+### Task 4 for Lecture #5
+
+- To run the ruby file, enter in Task 4 folder and type in Terminal:
+  `ruby app.rb`
+
+After you started the script, you have to :
+
+1. Input generated file destination path. For example: "build/README"(works with any name of folder) or just "README"
+
+2. You have to choose one option: HTML or MD.
+
+If you type "build/README" - it creates a folder with README file with according extension. In other case, it creates a README file in the root folder.
+
+- To run the Rakefile, enter in Task 4 folder and type in Terminal:
+  `rake cleanup`
+
+It deletes every README file from the folders.

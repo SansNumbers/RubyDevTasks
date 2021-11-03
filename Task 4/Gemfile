@@ -1,0 +1,10 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+gem 'rubocop'
+gem 'ruby_jard'
+gem 'byebug'
+gem 'fileutils'
+gem 'tty-prompt'
+gem 'rake'
